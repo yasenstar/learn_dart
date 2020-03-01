@@ -23,7 +23,9 @@ Dart code runs over DartVM (Dart Virtual Machines), which is 2 times faster than
 - Asynchronous Programming
 - You can use Dart to develop web applications, but in addition, you can use Dart to develop command-line applications and server-side applications as well.
 
-### Dart v.s. Javascript in the Names
+### Coverting from Other Programming Language
+
+#### Dart vs JavaScript: the Names
 
 | __Javascript__ | __Dart__ |
 | --- | --- |
@@ -32,7 +34,23 @@ Dart code runs over DartVM (Dart Virtual Machines), which is 2 times faster than
 | XMLHttpRequest | HttpRequest |
 | CSSStyleSheet | CssStyleSheet|
 
+#### Dart vs. JavaScript and jQuery: DOM elements (Dart has real Data Collections)
 
+| __Javascript__ | __jQuery__ | __Dart__ |
+| --- | --- | --- |
+| getElementsById('id') | $('#id') | querySelector('#id') |
+| getElementsByTagName('tag') | $('tag') | querySelectorAll('tag') \
+| getElementsByName('name') | $('[name="name"]') | querySelectorAll('[name="name"]') |
+| getElementsByName('name') | $('.class') | querySelectorAll('.class') |
+
+Sample using `dart:html`:
+
+```Dart
+import dart:html
+void main() {
+  List<Element> my_divs = document.querySelectorAll('div');
+}
+```
 
 ## 1. Getting Started
 
