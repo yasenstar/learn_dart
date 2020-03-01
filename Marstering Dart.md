@@ -34,7 +34,7 @@ Modularity in Dart is realized through __Packages, Libraries, and Classes__.
 | Module Components | Definition |
 | :---: | :--- |
 | library | A __library__ exposes functionality as a set of interfaces and hides the implementation from the rest of the world. A library can be implemented as a simple function, a single class, several classes, or a collection of parts representing the entire API of a library. The Dart application is a library as well|
-| package | A
+| package | A __package__ is simply a directory that contains a _pubspec.yaml_ file and may include any number of libraries and resources. The _pubspec.yaml_ file contrains significant information about the package, its authors, and its dependencies on other packages. Before a package can be used, it must be published to a package management system, which is an online resource called _pub_ at [](https://pub.dartlang.org/)|
 
 ## 2. Advanced Techniques and Reflections
 
