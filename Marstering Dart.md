@@ -1,6 +1,6 @@
 # Book - Marstering Dart
 
-* -- Marter the art of programming high-performance application with Dart*
+_-- Marter the art of programming high-performance application with Dart_
 
 Author: Sergey Akopkokhyants
 
@@ -29,9 +29,12 @@ It increases complexity when managing many modules, especially when each one is 
 
 ### Modularity in Dart
 
-Modularity in Dart is realized through **Packages, Libraries, and Classes**.
+Modularity in Dart is realized through __Packages, Libraries, and Classes__.
 
-
+| Module Components | Definition |
+| :---: | :--- |
+| library | A __library__ exposes functionality as a set of interfaces and hides the implementation from the rest of the world. A library can be implemented as a simple function, a single class, several classes, or a collection of parts representing the entire API of a library. The Dart application is a library as well|
+| package | A
 
 ## 2. Advanced Techniques and Reflections
 
