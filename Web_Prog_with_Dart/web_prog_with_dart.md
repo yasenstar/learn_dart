@@ -56,7 +56,8 @@ void main() {
 
 | __Javascript__ | __jQuery__ | __Dart__ |
 | --- | --- |
-| document.createElement('div') | $(document).add('div') \n $(document).append('div') | new DivElement() \n new InputElement(type:'checkbox') |
+| document.createElement('div') | $(document).add('div') or $(document).append('div') | new DivElement() or new InputElement(type:'checkbox') |
+
 
 
 ## 1. Getting Started
