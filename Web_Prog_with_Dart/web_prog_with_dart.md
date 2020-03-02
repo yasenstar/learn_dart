@@ -52,6 +52,13 @@ void main() {
 }
 ```
 
+#### Dart vs. JavaScript and jQuery: New DOM element
+
+| __Javascript__ | __jQuery__ | __Dart__ |
+| --- | --- |
+| document.createElement('div') | $(document).add('div') \n $(document).append('div') | new DivElement() \n new InputElement(type:'checkbox') |
+
+
 ## 1. Getting Started
 
 ## 2. Dart Tools
