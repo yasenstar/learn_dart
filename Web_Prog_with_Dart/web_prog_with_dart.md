@@ -58,6 +58,13 @@ void main() {
 | --- | --- | --- |
 | document.createElement('div') | $(document).add('div') <br> $(document).append('div') | new DivElement() <br> new InputElement(type:'checkbox') |
 
+### Dart vs. JavaScript and jQuery: The events system
+
+| __Javascript__ | __jQuery__ | __Dart__ |
+| --- | --- | --- |
+| elem.addEventListener('click',(event) => print('click',false)); | $('#elem').on('click',function(event){}); | var addEventListener = elem.onClick.listen(event)=>print('click'); |
+| elem.removeEventListener('click',listener); | $('#elem').off('click'); | eventListener.cancel();|
+
 
 
 ## 1. Getting Started
